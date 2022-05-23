@@ -1,0 +1,747 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div, p, input, header, a{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	padding: 0;
+	margin: 0;
+}
+
+ul, li{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	background: url('../img/background.jpg') no-repeat center top;
+	padding-top: 43px;
+}
+
+.logo{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+	display: block;
+	padding-left: 33px;
+	width: 145px;
+	background: url('../img/logo.svg') no-repeat left center;
+}
+
+.menu{
+	display: flex;
+	margin-left: 111px;
+}
+
+.menu li{
+	margin-right: 48px;
+}
+
+.menu li:last-child{
+	margin-right: 55px;
+}
+
+.menu a{
+	padding-bottom: 4px;
+}
+
+.menu a:hover{
+	border-bottom: 1px solid white;
+}
+
+.cap{
+	display: flex;
+	align-items: center;
+}
+
+.next{
+	font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin-right: 53px;
+}
+
+.next span{
+	font-weight: normal;
+    font-size: 12px;
+}
+
+.btn1{
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	font-weight: bold;
+	display: block;
+	font-size: 14px;
+	align-items: center;
+	width: 169px;
+	text-align: center;
+	padding: 11px 26px;
+}
+
+.btn1:hover{
+	background-color: white;
+	color: #296A6F;
+}
+
+.number{
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	margin-left: 5px;
+}
+
+.inscription{
+	color: white;
+	text-align: center;
+	margin-top: 193px;
+}
+
+.inscription h1{
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 18px;
+}
+
+.inscription p{
+	font-weight: normal;
+	font-size: 17px;
+	margin-bottom: 35px;
+	width: 464px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.3em;
+}
+
+.inscription .btn{
+	margin: 0 auto;
+}
+
+.btn{
+	font-weight: bold;
+	font-size: 17px;
+	background: #FF7D34;
+	border-radius: 69px;
+	padding: 15px 41px;
+	display: block;
+	width: 210px;
+}
+
+.btn:hover{
+	background: #FF6B00;
+}
+
+.arrow{
+	display: block;
+	margin-top: 200px;
+	padding-bottom: 45px;
+}
+
+.where{
+	font-weight: bold;
+    font-size: 38px;
+    color: #543024;
+    margin-top: 80px;
+    margin-bottom: 47px;
+}
+
+.card{
+	display: flex;
+}
+
+.png{
+	border-radius: 15px 0px 0px 15px;
+}
+
+.card_inside{
+	padding-top: 35px;
+	padding-left: 29px;
+	height: 170px;
+}
+
+.country {
+	display: flex;
+	justify-content: space-between;
+}
+
+.country li{
+	width: 585px;
+	background: #FFFFFF;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 15px;
+}
+
+.lettering{
+	display: flex;	
+}
+
+.pink{
+	font-weight: normal;
+	font-size: 13px;
+	color: #FFFFFF;
+	background: #EE3C5C;
+	border-radius: 30px;
+	height: 15px;
+	padding: 3px 13px;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.lettering p{
+	font-weight: normal;
+	font-size: 13px;
+	color: #EE3C5C;
+	margin-left: 8px;
+	margin-top: 3px;
+}
+
+.card_inside h3{
+	font-weight: bold;
+	font-size: 19px;
+	color: #543024;
+	display: block;
+	margin-top: 19px;
+	margin-bottom: 12px;
+}
+
+.info{
+	font-weight: normal;
+	font-size: 13px;
+	color: #000000;
+}
+
+.indent{
+	margin-top: 31px;
+}
+
+.btn2{
+	font-weight: bold;
+	font-size: 17px;
+	padding: 15px 41px;
+	display: block;
+	width: 275px;
+	border: 1px solid #FF7D34;
+    border-radius: 69px;
+    color: #FF7D34;
+    margin-top: 50px;
+}
+
+.btn2:hover{
+	color: white;
+	background-color: #FF7D34
+}
+.h4{
+	margin-top: 101px;
+	color: #543024;
+	font-size: 18px;
+}
+
+.longText{
+	font-size: 15px;
+	margin-top: 25px;
+	width: 570px;
+}
+
+.Flex{
+	display: flex;
+}
+
+.img{
+	margin-left: 45px;
+}
+
+.contact{
+	margin-top: 96px;
+}
+
+.form{
+	width: 601px;
+    height: 534px;
+    box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+    border-radius: 20px;
+}
+
+.textForm{
+	width: 367px;
+	padding: 58px 170px 45px 64px;
+}
+
+.input{
+	font-size: 20px;
+	width: 473px;
+    height: 59px;
+    margin-left: 64px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px rgba(39, 52, 86, 0.26) solid;
+}
+
+.input::placeholder{
+	font-size: 16px;
+	color: rgba(39, 52, 86, 0.56);
+	padding-left: 26px;
+}
+
+.btn3{
+	margin-top: 15px;
+	margin-left: 64px;
+	font-weight: bold;
+	font-size: 17px;
+	background: #FF7D34;
+	border-radius: 69px;
+	padding: 20px 41px;
+	display: block;
+	width: 290px;
+	text-align: center;
+}
+
+.btn3:hover{
+	background: #FF6B00;
+}
+
+.ImgPhone{
+	width: 601px;
+    height: 534px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.h4_F{
+	color: #543024;
+	font-size: 18px;
+}
+
+.phone{
+	color: #543024;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Phototrip{
+	color: rgba(114, 52, 26, 0.6);
+	font-size: 14px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.contacts{
+	margin-bottom: 116px;
+}
+
+.AdapFlex{
+	display: flex;
+	align-items: center;
+}
+
+.btn5{
+	font-weight: bold;
+	font-size: 17px;
+	padding: 15px 41px;
+	display: block;
+	width: 275px;
+	border: 1px solid #FF7D34;
+    border-radius: 69px;
+    color: #FF7D34;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.btn5:hover{
+	color: white;
+	background-color: #FF7D34
+}
+
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 900px;
+    }
+
+    .logo{
+    	font-size: 15px;
+    }
+
+    .menu{
+    	font-size: 13px;
+    	margin-left: 50px;
+    }
+
+    .menu li{
+		margin-right: 28px;
+    }
+
+	.menu li:last-child{
+		margin-right: 45px;
+	}
+
+	.next span{
+	    font-size: 10px;
+	}
+
+	.number{
+		display: none;
+	}
+
+	.cap{
+		justify-content: space-between;
+	}
+
+	.btn1{
+		font-size: 12px;
+		width: 155px;
+		padding: 10px 25px;
+	}
+
+	.inscription h1{
+		font-size: 40px;
+	}
+
+	.inscription p{
+		font-size: 14px;
+	}
+
+	.btn{
+		font-size: 14px;
+		padding: 13px 39px;
+		width: 190px;
+	}
+
+	.arrow{
+		margin-top: 130px;
+		padding-bottom: 35px;
+	}
+
+	.where{
+	    font-size: 30px;
+	}
+
+	.card_inside{
+		padding-top: 20px;
+		height: 100px;
+	}
+	.country li{
+		width: 430px;
+	}
+	.pink{
+		font-size: 11px;
+		height: 13px;
+		padding: 3px 8px;
+	}
+
+	.lettering p{
+		font-size: 11px;
+		margin-left: 8px;
+	}
+
+	.card_inside h3{
+		font-size: 17px;
+		margin-top: 15px;
+		margin-bottom: 7px;
+	}
+
+	.card img {
+		width: 200px;
+		height: 130px;
+	}
+
+	.btn2{
+		font-size: 15px;
+		padding: 13px 33px;
+		width: 235px;
+	}
+
+	.btn5{
+		font-size: 15px;
+		padding: 13px 33px;
+		width: 235px;
+		margin: 0 auto 20px auto;
+	}
+
+	.longText{
+		font-size: 15px;
+		margin-top: 25px;
+		width: 430px;
+	}
+
+	.img{
+		margin-left: 35px;
+	}
+
+	.img img{
+		width: 430px;
+		height: 250px;
+	}
+
+	.h4{
+		margin-top: 10px;
+		color: #543024;
+		font-size: 18px;
+	}
+
+	.longText{
+		font-size: 14px;
+	}
+
+	.form{
+		width: 501px;
+	    height: 434px;
+	}
+
+	.input{
+		font-size: 20px;
+		width: 373px;
+	    height: 39px;
+	}
+
+	.input::placeholder{
+		font-size: 14px;
+	}
+
+	.btn3{
+		font-size: 16px;
+		padding: 16px 33px;
+		width: 230px;
+	}
+
+	.h4_F{
+		font-size: 17px;
+	}
+
+	.phone{
+		font-size: 17px;
+	}
+
+	.contacts{
+		margin-bottom: 30px;
+	}
+
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+
+	.container{
+		width: 670px;
+    }
+
+	.cap{
+		display: block;
+	}
+
+	.logo{
+		margin-left: 285px;
+		margin-bottom: 30px;
+	}
+
+	.next{
+		display: none;
+	}
+
+	.btn1{
+		display: none;
+	}
+
+	.menu{
+		margin-left: 140px;
+		font-size: 15px;
+	}
+
+	.menu li{
+		margin-right: 50px;
+    }
+
+    .country {
+		display: block;
+	}
+
+	.country li {
+		margin: 15px auto;
+	}
+
+	.indent{
+		margin-top: 0px;
+	}
+
+	.where{
+		text-align: center;
+	}
+
+	.btn2{
+		margin: 50px auto;
+	}
+
+	.Flex{
+		display: block;
+	}
+
+	.h4{
+		text-align: center;
+	}
+
+	.longText{
+		text-align: center;
+		margin: 15px auto;
+		width: 650px;
+	}
+
+	.img{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.form{
+		margin: 0 auto;
+	}
+
+	.ImgPhone{
+		margin: 0 auto;
+		padding-top: 100px;
+		height: 250px;
+		width: 450px;
+	}
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container{
+		width: 500px;
+    }
+
+	.logo{
+		margin-left: 180px;
+		margin-bottom: 30px;
+	}
+
+	.menu{
+		margin-left: 83px;
+		font-size: 15px;
+	}
+
+	.menu li{
+		margin: 0 10px 0 10px;
+    }
+
+    .longText{
+		width: 500px;
+	}
+	
+}
+
+/* 350px - 576px */
+@media screen and (max-width: 576px) {
+	.container{
+		width: 320px;
+    }
+
+    .logo{
+		margin-left: 95px;
+	}
+
+	.menu{
+		margin-left: 0px;
+		font-size: 15px;
+	}
+
+	.menu li{
+		margin: 0 22px 0 0;
+    }
+
+    .menu li:last-child{
+		margin: 0;
+    }
+
+    .inscription h1{
+		font-size: 30px;
+	}
+
+	.inscription p{
+		font-size: 14px;
+		width: 320px;
+	}
+
+	.inscription{
+		margin-top: 90px;
+	}
+
+	.card{
+		display: block;
+		width: 320px;
+		height: 320px;
+	}
+
+	.country li {
+		width: 320px;
+		height: 320px
+	}
+
+	.card img{
+		width: 320px;
+		height: 190px;
+	}
+
+	.longText{
+		width: 320px;
+	}
+
+	.img img{
+		width: 320px;
+		height: 200px;
+	}
+
+	.form{
+		width: 320px;
+	}
+
+	.h4_F{
+		padding-left: 5px;
+		padding-right: 5px;
+		width: 310px;
+		text-align: center;
+	}
+
+	.input{
+		font-size: 17px;
+		width: 300px;
+	    height: 39px;
+	    margin: 5px 10px 5px 10px;
+	}
+
+	.input::placeholder{
+		font-size: 14px;
+	}
+
+	.btn3{
+		margin: 30px auto;
+	}
+
+	.ImgPhone{
+		width: 142px;
+	}
+
+	.png{
+		border-radius: 15px;
+	}
+}
